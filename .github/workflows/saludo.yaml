@@ -19,4 +19,4 @@ jobs:
 
       - name: saludo desde Develop
         if: github.ref == 'refs/heads/develop'
-        run: echo "Hola desde develop, Soy $nombre}"
+        run: echo "Hola desde develop, Soy $nombre"
